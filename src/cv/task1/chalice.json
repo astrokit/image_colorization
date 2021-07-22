@@ -1,0 +1,25 @@
+{
+  "testcases":
+  [
+    {
+      "name": "chalice",
+      "edge_threshold": 115,
+      "matching_window_size": 20,
+      "c_offset": 15,
+      "r_offset": 7,
+      "out_filenames": [
+        "gradientR",
+        "binaryR",
+        "edgesB",
+        "edgesG",
+        "edgesR",
+        "translatedR",
+        "alignedB",
+        "alignedG",
+        "combined",
+        "combined_cropped",
+        "cartoon"
+      ]
+    }
+  ]
+}

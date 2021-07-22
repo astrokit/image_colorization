@@ -1,0 +1,25 @@
+{
+  "testcases":
+  [
+    {
+      "name": "emir",
+      "edge_threshold": 85,
+      "matching_window_size": 20,
+      "c_offset": 20,
+      "r_offset": 13,
+      "out_filenames": [
+        "gradientR",
+        "binaryR",
+        "edgesB",
+        "edgesG",
+        "edgesR",
+        "translatedR",
+        "alignedB",
+        "alignedG",
+        "combined",
+        "combined_cropped",
+        "cartoon"
+      ]
+    }
+  ]
+}

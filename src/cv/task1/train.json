@@ -1,0 +1,25 @@
+{
+  "testcases":
+  [
+    {
+      "name": "train",
+      "edge_threshold": 90,
+      "matching_window_size": 40,
+      "c_offset": 10,
+      "r_offset": -5,
+      "out_filenames": [
+        "gradientR",
+        "binaryR",
+        "edgesB",
+        "edgesG",
+        "edgesR",
+        "translatedR",
+        "alignedB",
+        "alignedG",
+        "combined",
+        "combined_cropped",
+        "cartoon"
+      ]
+    }
+  ]
+}
